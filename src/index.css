@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.first {
+  background-image: url("homefirst.png");
+}
+
+.images>img{
+  width: auto;
+  height: 50px;
+}
+
+.multi{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-widht: 1000px){
+  .hide{
+    visibility: hidden;
+  }
+  .show{
+    width: 100%;
+  }
+}
